@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #e9ec16;
+    font-size: 17px;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+.input-field>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: yellow;
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: rgb(218, 198, 21) solid 1px ;
+    text-transform:none;
+    color:black;
+}
+
+div.card{
+    background-color :rgba(150, 100, 127, 0.5);
+    border-radius: 10px;
+}
+
+.vl {
+    border-left: 2px solid yellow;
+    height: 400px;
+}
+
+a.action-btn{
+    color: rgb(223, 223, 58) ;
+    margin: 0px 5px;
+
+}
+a.action-btn:hover{
+    cursor: pointer;
+    background-color:rosybrown;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+  }
+ body{
+     background-image:url("./assets/book.jpg")
+ }
