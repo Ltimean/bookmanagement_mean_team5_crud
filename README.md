@@ -1,5 +1,4 @@
-# Student Management System
-# RecordBook (A student record management System)
+# Book Management System
 
 To run:
 
